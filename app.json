@@ -4,10 +4,15 @@
     "slug": "MyApp",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/images/coffee-icon.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/images/coffee-splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#000000"
+    },
     "ios": {
       "supportsTablet": true
     },
